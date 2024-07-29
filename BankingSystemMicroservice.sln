@@ -5,11 +5,15 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{ED5C254E-825B-4A0F-8A07-CC102A909041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{0AD1713F-4546-4F54-A723-106DE8F1CF09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{0AD1713F-4546-4F54-A723-106DE8F1CF09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferanceManagementSystem", "ReferanceManagementSystem", "{5D78B593-D41F-4B1C-9F75-8A03CEE9D9AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferanceManagementSystem", "ReferanceManagementSystem\ReferanceManagementSystem.csproj", "{B23E67E2-B681-4510-B5D2-F78733F50667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferanceManagementSystem", "ReferanceManagementSystem\ReferanceManagementSystem.csproj", "{B23E67E2-B681-4510-B5D2-F78733F50667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionManagementSystem", "TransactionManagementSystem", "{BBD26DF5-0A2F-4876-B581-28BCB3AE4EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionManagementSystem", "TransactionManagementSystem\TransactionManagementSystem.csproj", "{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{B23E67E2-B681-4510-B5D2-F78733F50667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23E67E2-B681-4510-B5D2-F78733F50667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23E67E2-B681-4510-B5D2-F78733F50667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0AD1713F-4546-4F54-A723-106DE8F1CF09} = {ED5C254E-825B-4A0F-8A07-CC102A909041}
 		{B23E67E2-B681-4510-B5D2-F78733F50667} = {5D78B593-D41F-4B1C-9F75-8A03CEE9D9AC}
+		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF} = {BBD26DF5-0A2F-4876-B581-28BCB3AE4EA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69338F36-75B5-471C-AA01-ED90BC5A2FF3}
