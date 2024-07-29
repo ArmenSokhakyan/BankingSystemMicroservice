@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionManagementSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionManagementSystem", "TransactionManagementSystem\TransactionManagementSystem.csproj", "{2CDF65B9-4BC4-425F-88CD-9523A747F6BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B216F2C9-7DBE-4D31-A557-8BB7C462BEEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,7 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0AD1713F-4546-4F54-A723-106DE8F1CF09} = {ED5C254E-825B-4A0F-8A07-CC102A909041}
+		{5D78B593-D41F-4B1C-9F75-8A03CEE9D9AC} = {B216F2C9-7DBE-4D31-A557-8BB7C462BEEC}
 		{B23E67E2-B681-4510-B5D2-F78733F50667} = {5D78B593-D41F-4B1C-9F75-8A03CEE9D9AC}
+		{BBD26DF5-0A2F-4876-B581-28BCB3AE4EA4} = {B216F2C9-7DBE-4D31-A557-8BB7C462BEEC}
 		{2CDF65B9-4BC4-425F-88CD-9523A747F6BF} = {BBD26DF5-0A2F-4876-B581-28BCB3AE4EA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -5,6 +5,7 @@ namespace TransactionManagementSystem.Core.Interfaces.Repositories
     public interface IOutTransactionRepository
     {
         public Task<IEnumerable<OutTransaction>> GetTransactionsAsync();
+        
         public Task<OutTransaction> GetTransactionByIdAsync(int id);
         
         public Task<IEnumerable<OutTransaction>> GetTransactionsByAccountIdAsync(int accountId);
