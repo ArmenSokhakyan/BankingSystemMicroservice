@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FrontEnd.Core.Services
 {
-    public class BaseService : IBaseService
+    public abstract class BaseService : IBaseService
     {
         public ResponseDTO response { get; set ; }
         public IHttpClientFactory _httpClient { get; set; }
