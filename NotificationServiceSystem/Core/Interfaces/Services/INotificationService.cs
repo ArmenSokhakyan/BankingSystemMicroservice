@@ -1,4 +1,5 @@
 ﻿using NotificationServiceSystem.Core.Entities;
+using static NotificationServiceSystem.Core.Services.NotificationService;
 
 namespace NotificationServiceSystem.Core.Interfaces.Services
 {
@@ -15,5 +16,7 @@ namespace NotificationServiceSystem.Core.Interfaces.Services
         public Task UpdateNotificationAsync(Notification notification);
 
         public Task DeleteNotificationAsync(int id);
+
+        public Task<int> TestDelegate(Func<string, Task<int>> callback);
     }
 }

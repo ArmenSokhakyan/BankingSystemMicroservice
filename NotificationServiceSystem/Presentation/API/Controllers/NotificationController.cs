@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using NotificationServiceSystem.Core.Common;
 using NotificationServiceSystem.Core.Entities;
 using NotificationServiceSystem.Core.Interfaces.Services;
 using NotificationServiceSystem.Presentation.API.DTOs;
+using static NotificationServiceSystem.Core.Services.NotificationService;
 
 namespace NotificationServiceSystem.Presentation.API.Controllers
 {
@@ -80,5 +82,10 @@ namespace NotificationServiceSystem.Presentation.API.Controllers
             return NoContent();
         }
 
+        [HttpGet("delegate")]
+        public async Task<ActionResult<int>> TestDelegate()
+        {
+            return Ok(await _notificationService.TestDelegate(Delegates.CallbackMethod));
+        }
     }
 }

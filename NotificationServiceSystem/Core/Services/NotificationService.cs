@@ -1,6 +1,7 @@
 ﻿using NotificationServiceSystem.Core.Entities;
 using NotificationServiceSystem.Core.Interfaces.Repositories;
 using NotificationServiceSystem.Core.Interfaces.Services;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace NotificationServiceSystem.Core.Services
 {
@@ -36,6 +37,13 @@ namespace NotificationServiceSystem.Core.Services
         public async Task<IEnumerable<Notification>> GetNotificationsByReceiverAsync(string receiver)
         {
             return await _notificationRepository.GetNotificationsByReceiverAsync(receiver);
+        }
+
+        public async Task<int> TestDelegate(Func<string, Task<int>> callback)
+        {
+            string data = "test delegate";
+
+            return await callback(data);
         }
 
         public async Task UpdateNotificationAsync(Notification notification)

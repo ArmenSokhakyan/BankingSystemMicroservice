@@ -31,7 +31,6 @@ namespace IntegrationTest
             var response = await _httpClient.PostAsync("/api/nitification", content);
 
             //Assert
-            response.EnsureSuccessStatusCode();
             Assert.Equal(System.Net.HttpStatusCode.Created, response.StatusCode);
 
             var responseString = await response.Content.ReadAsStringAsync();
